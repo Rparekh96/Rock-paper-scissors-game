@@ -1,0 +1,112 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+background: #cb356b; 
+  background: -webkit-linear-gradient(to right, #cb356b, #bd3f32);
+  background: linear-gradient(to right, #cb356b, #bd3f32);
+}
+
+
+header {
+background: white;
+padding: 20px
+}
+
+header > h1 {
+color: rgb(0, 0, 0);
+text-align: center;
+font-family: sans-serif;
+
+}
+
+.score-board {
+margin: 20px auto;
+border: 3px solid white;
+border-radius: 4px;
+text-align: center;
+width: 200px;
+color: white;
+font-size: 46px;
+padding: 15px 20px;
+position: relative;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.badge {
+background: white;
+color: black;
+font-weight: bold;
+font-size: 14px;
+padding: 3px 15px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#user-label {
+position: absolute;
+top: 30px;
+left: -20px;
+
+}
+#computer-label {
+position: absolute;
+top: 30px;
+right: -30px;
+}
+
+.result {
+font-size: 40px;
+color: white;
+}
+
+.result > p {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif
+}
+
+.choices {
+margin-top: 50px;
+font-weight: bold;
+text-align: center;
+}
+
+.choice {
+display: inline-block;
+margin: 15px;
+padding: 10px;
+transition: all 0.3s ease;
+}
+
+.choice:hover {
+cursor: pointer;
+background: white;
+}
+
+#action-message {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+margin-top: 20px;
+font-size: 30px;
+text-align: center;
+color: white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
